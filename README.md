@@ -1,24 +1,20 @@
 # INSURANCE_FRAUD_DETCTION_1
 # Insurance Fraud Detection using Machine Learning
 
-This project predicts fraudulent insurance claims using machine learning.
+This project detects fraudulent insurance claims using machine learning.
 
-## Features
-- Data preprocessing
-- Exploratory data analysis
-- Machine learning model training
-- Fraud prediction API using Flask
+## Project Pipeline
 
-## Technologies Used
-Python
-Pandas
-Scikit-learn
-Flask
-Matplotlib
-Seaborn
+1 Data Collection  
+2 Data Preprocessing  
+3 Feature Engineering  
+4 Model Training  
+5 Model Evaluation  
+6 Model Deployment using Flask API
 
-## Model Used
-Random Forest Classifier
+## Algorithms Used
+Random Forest  
+Logistic Regression  
 
 ## Run Project
 
@@ -28,8 +24,8 @@ pip install -r requirements.txt
 
 Train model
 
-python src/train_model.py
+python src/models/train_model.py
 
 Run API
 
-python app.py
+python api/app.py
