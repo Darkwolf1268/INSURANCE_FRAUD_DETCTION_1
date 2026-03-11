@@ -3,7 +3,7 @@ import pickle
 
 app = Flask(__name__)
 
-model = pickle.load(open("model/fraud_model.pkl","rb"))
+model = pickle.load(open("models/fraud_model.pkl","rb"))
 
 @app.route("/")
 def home():
