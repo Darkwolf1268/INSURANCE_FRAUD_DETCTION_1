@@ -13,4 +13,3 @@ def preprocess_data(path):
         df[col] = le.fit_transform(df[col])
 
     return df
-  
